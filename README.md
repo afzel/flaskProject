@@ -29,7 +29,7 @@ Cron выражение на каждые 10 секунд
 ```
 Теперь полученные данные отправим через curl на сервер
  ```bash
- curl -X POST -H "Content-Type: application/json" -d '@script.sh' 127.0.0.1:5000/cpu
+ curl -X POST -H "Content-Type: application/json" -d '@script.sh' 127.0.0.1:5000
 ```
  
   
